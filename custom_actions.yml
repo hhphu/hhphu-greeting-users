@@ -1,0 +1,13 @@
+name: "Business Greetings"
+description: "Professionally greet users and provide timestamps"
+inputs:
+  name:
+    description: "Name of the user to be greeted"
+    required: true
+    defualt: "Web App users"
+outputs: 
+  timestamp:
+    description: "Time of the greeting"
+runs:
+  using: "node18"
+  main: "index.js"
